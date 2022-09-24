@@ -1,7 +1,7 @@
-import React from "react";
+import Router from "./config/Router";
 
 const App = () => {
-  return <div>Welcome to Shop Cart</div>;
+  return <Router/>
 };
 
 export default App;
