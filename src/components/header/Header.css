@@ -1,0 +1,41 @@
+.h-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9EED8;
+    
+}
+
+.h-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap:  2rem;
+}
+.h-name{
+    transform: scale(0.8);
+   padding: 20px 
+}
+.h-right{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.h-list{
+    flex: 10;
+}
+.h-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.h-list>ul>li:hover{
+    
+    cursor: pointer;
+    color:#33b033
+}

@@ -1,7 +1,9 @@
 import Router from "./config/Router";
+import "./App.css"
+import "swiper/css/bundle";
 
 const App = () => {
-  return <Router/>
+  return <div className="App"><Router/></div>
 };
 
 export default App;
